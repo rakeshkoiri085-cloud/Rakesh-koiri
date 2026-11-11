@@ -1,0 +1,7 @@
+{
+  "name": "SUPER AI",
+  "description": "Next-generation AI assistant platform for learning, coding, and creating.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

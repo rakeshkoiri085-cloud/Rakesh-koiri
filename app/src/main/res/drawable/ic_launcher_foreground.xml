@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer diamond glowing nodes -->
+    <path
+        android:pathData="M54,28 L78,54 L54,80 L30,54 Z"
+        android:strokeWidth="3.5"
+        android:strokeLineJoin="round"
+        android:strokeLineCap="round">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="30"
+                android:startY="28"
+                android:endX="78"
+                android:endY="80"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#38BDF8" />
+                <item android:offset="1.0" android:color="#A855F7" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Inner Core Spark -->
+    <path
+        android:pathData="M54,37 L60,49 L72,54 L60,59 L54,71 L48,59 L36,54 L48,49 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="36"
+                android:startY="37"
+                android:endX="72"
+                android:endY="71"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#67E8F9" />
+                <item android:offset="0.5" android:color="#C084FC" />
+                <item android:offset="1.0" android:color="#F43F5E" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Orbital Corner Nodes -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M54,23 A4,4 0 1,0 54,31 A4,4 0 1,0 54,23 Z" />
+    <path
+        android:fillColor="#818CF8"
+        android:pathData="M79,49 A4,4 0 1,0 79,57 A4,4 0 1,0 79,49 Z" />
+    <path
+        android:fillColor="#C084FC"
+        android:pathData="M54,75 A4,4 0 1,0 54,83 A4,4 0 1,0 54,75 Z" />
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M27,49 A4,4 0 1,0 27,57 A4,4 0 1,0 27,49 Z" />
+</vector>
